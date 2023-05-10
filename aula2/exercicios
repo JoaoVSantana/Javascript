@@ -1,0 +1,89 @@
+//questao 1
+function adicionar(a, b) {
+    return a + b;
+
+};
+console.log(adicionar(4, 4));
+
+//questao 2
+function subtrair(a, b) {
+    return a - b;
+
+};
+console.log(subtrair(10, 3));
+
+//questao 3
+const multiplicar = (a, b) => a * b;
+
+console.log(multiplicar(5, 8));
+
+//questao 4
+let par = false;
+
+function ehPar(a) {
+    if (a % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(ehPar(4));
+
+//questao 5
+let notas = [1, 2, 3, 4, 5];
+
+const soma = notas.reduce((acumulador, nota) => {
+    return acumulador + nota;
+});
+console.log(soma / 5);
+
+//questao 6
+let palavra = "balacobaco";
+
+const maiuscula = palavra.toUpperCase((palavra) => {
+    return maiuscula;
+});
+console.log(maiuscula);
+
+//questao 7
+let num = 5;
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const maiores = numeros.filter(numero => {
+   return numero > num
+});
+
+console.log(maiores);
+
+//questao 8
+let valor = 3;
+let cont = 0;
+let vetor = [1, 2, 3, 4, 5, 3, 7, 8, 3, 10];
+
+const verifica = vetor.filter(vetor => {
+    if(vetor == valor){
+        cont ++;
+    }
+    return cont;
+});
+console.log(cont);
+
+//questao 9
+
+let vogais = ["a","e","i","o","u"];
+
+function checar (String) {
+    let quant = 0;
+    for(let cont1 = 0; cont1 < String.length; cont1 ++){
+        if(vogais.includes(String[cont1]));{
+            quant ++;
+        }
+    }
+    return quant;
+}
+console.log(checar("passaro"));
+
+
+
+//questao 10
+
