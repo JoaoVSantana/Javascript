@@ -2,7 +2,7 @@ let jmudarCorFundo = document.getElementById('mudarCorFundo');
 let jmudarCorTitulo = document.getElementById('mudarCorTitulo');
 let jmudarCorTexto = document.getElementById('mudarCorTexto');
 let jmudarFonteTitulo = document.getElementById('mudarFonteTitulo');
-let jmudarFonteTexto = document.getElementById('mudarCorTexto');
+let jmudarFonteTexto = document.getElementById('mudarFonteParagrafo');
 let jmudarTudo = document.getElementById('mudarTudo');
 let jtitulo = document.getElementById('titulo');
 let jtexto = document.getElementById('paragrafo');
@@ -15,15 +15,15 @@ function corAleatoria() {
     return `rgb(${r}, ${g}, ${b})`
 };
 
-jmudarCorFundo.addEventListener('click' , function(){
-        document.body.style.backgroundColor = corAleatoria()
+jmudarCorFundo.addEventListener('click', function () {
+    document.body.style.backgroundColor = corAleatoria()
 });
 
-jmudarCorTitulo.addEventListener('click' , function(){
+jmudarCorTitulo.addEventListener('click', function () {
     jtitulo.style.color = corAleatoria();
 })
 
-jmudarCorTexto.addEventListener('click' , function(){
+jmudarCorTexto.addEventListener('click', function () {
     jtexto.style.color = corAleatoria();
 })
 
@@ -49,14 +49,21 @@ function fontesAleatorias() {
     return fontes[parseInt(Math.random() * fontes.length)];
 }
 
-jmudarFonteTitulo.addEventListener('click' , function(){
+jmudarFonteTitulo.addEventListener('click', function () {
     console.log(fontesAleatorias)
     jtitulo.style.fontFamily = fontesAleatorias();
 });
 
-jmudarFonteTexto.addEventListener('click' , function(){
+jmudarFonteTexto.addEventListener('click', function () {
     jtexto.style.fontFamily = fontesAleatorias();
 })
 
 console.log(corAleatoria())
 
+jmudarTudo.addEventListener('click', function(){
+    document.body.style.backgroundColor = corAleatoria()
+    jtitulo.style.color = corAleatoria();
+    jtexto.style.color = corAleatoria();
+    jtitulo.style.fontFamily = fontesAleatorias();
+    jtexto.style.fontFamily = fontesAleatorias();
+})
