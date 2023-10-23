@@ -4,3 +4,8 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --cor-primaria: #B88E2F;
+  --cor-fonte: #333;
+}

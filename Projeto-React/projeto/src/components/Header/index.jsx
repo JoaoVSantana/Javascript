@@ -8,7 +8,7 @@ function Header () {
                 <h2 className='texto-logo'>Furniro</h2>
             </div>
             <div className='links-header'>
-                <p>chupo pikas grandes e saborosas!</p>
+                <p>Home</p>
                 <p>Shop</p>
                 <p>About</p>
                 <p>Contact</p>

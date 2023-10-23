@@ -1,0 +1,69 @@
+.section {
+    background-image: url("images/imagemDisplay.png");
+    padding-top: 12%;
+    padding-bottom: 300px;
+}
+
+.card {
+
+    background-color: #fff3e3;
+    margin-left: 48%;
+    width: 630px;
+    height: 440px;
+    border-radius: 16px;
+}
+
+.textos {
+    margin-left: 8%;
+}
+
+.texto1 {
+    padding-top: 10%;
+    color: var(--font-color, #333);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+    
+}
+
+.titulo {
+    color: var(--cor-primaria, #B88E2F);
+    font-family: Poppins;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px;
+    padding-bottom: 2%;
+}
+
+.texto2 {
+    width: 546px;
+    height: 52px;
+    flex-shrink: 0;
+    color: var(--cor-fonte, #333);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    padding-bottom: 7%;
+}
+
+.botao {
+    display: inline-flex;
+    padding: 25px 72px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--cor-primaria, #B88E2F);
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border-style: none;
+}
