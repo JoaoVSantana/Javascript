@@ -4,8 +4,8 @@ import Card from '../Card';
 function Intro() {
     return (
         <div className='introdução'>
-            <div className='textos'>
-                <h2 className='titulo'>Browse The Range</h2>
+            <div className='textosIntro'>
+                <h2 className='tituloIntro'>Browse The Range</h2>
                 <h3 className='desc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             </div>
 
