@@ -1,0 +1,52 @@
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloProdutos {
+    color:var(--cor-fonte);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5%;
+    margin-bottom: 2%;
+
+}
+
+.lista1 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.lista2 {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.botaoCompra {
+    border: 1px solid #B88E2F;
+    background: #FFF;
+    color: var(--Primary, #B88E2F);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    padding-top: 3px;
+    width: 245px;
+    height: 42px;
+    margin-top: 3%;
+}

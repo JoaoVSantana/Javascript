@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Section from "./components/Section";
 import Intro from "./components/Intro";
+import Produtos from "./components/Produtos";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <Header/>
     <Section></Section>
     <Intro></Intro>
+    <Produtos></Produtos>
   </div>
 };
 

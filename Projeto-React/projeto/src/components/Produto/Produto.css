@@ -1,0 +1,44 @@
+.produto {
+    background-color: #F4F5F7;
+}
+
+.textos-produto {
+    padding-left: 5%;
+}
+
+.tituloProduto {
+    color: var(--cor-fonte);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: normal;
+}
+
+.descProduto {
+    color: #898989;
+    font-family: Poppins;
+
+}
+
+.precos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top:1%;
+}
+
+.precoAtual {
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.precoAntigo {
+    color: #B0B0B0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    align-self: end ;
+    text-decoration: line-through;
+}
