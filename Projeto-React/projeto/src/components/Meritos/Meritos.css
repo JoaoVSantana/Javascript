@@ -1,0 +1,44 @@
+.meritos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #faf3ea;
+}
+
+.content-final div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-final {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content-final img {
+    width: 30%;
+    height: 40%;
+}
+
+.content-final h4 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 80%;
+    color: #242424;
+}
+
+.content-final p {
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: -5%;
+    font-size: 80%;
+    color: #898989;
+}
+
+.text-final {
+    margin-left: 3%;
+    width: 120%;
+}
