@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h2 class="titulo">Título da Página</h2>
+        <a href="#">Pagina Inicial</a>
+        <a href="#">Pagina Diferente</a>
+        <button id="toggle">Alternar Modo</button>
+    </header>
+    <section class="conteudo">
+        <div class="conteudo_produto">
+            <div class="linha">
+                <div class="artigo">
+                    <h3 class="artigo_titulo">Artigo 1</h3>
+                    <p>10/10/2005</p>
+                    <img class="produto" src="/assets/picole.png" alt="imagem do produto">
+                    <p class="artigo_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex possimus atque
+                        mollitia, qui, rerum
+                        esse
+                        sapiente consectetur cupiditate alias ipsam error</p>
+                    <button class="botaoSB">Saiba mais</button>
+                </div>
+                <div class="artigo">
+                    <h3 class="artigo_titulo">Artigo 2</h3>
+                    <p>10/10/2005</p>
+                    <img class="produto" src="/assets/picole.png" alt="imagem do produto">
+                    <p class="artigo_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex possimus atque
+                        mollitia, qui, rerum
+                        esse
+                        sapiente consectetur cupiditate alias ipsam error</p>
+                    <button class="botaoSB">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="linha">
+                <div class="artigo">
+                    <h3 class="artigo_titulo">Artigo 3</h3>
+                    <p>10/10/2005</p>
+                    <img class="produto" src="/assets/picole.png" alt="imagem do produto">
+                    <p class="artigo_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex possimus atque
+                        mollitia, qui, rerum
+                        esse
+                        sapiente consectetur cupiditate alias ipsam error</p>
+                    <button class="botaoSB">Saiba mais</button>
+                </div>
+                <div class="artigo">
+                    <h3 class="artigo_titulo">Artigo 4</h3>
+                    <p>10/10/2005</p>
+                    <img class="produto" src="/assets/picole.png" alt="imagem do produto">
+                    <p class="artigo_texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex possimus atque
+                        mollitia, qui, rerum
+                        esse
+                        sapiente consectetur cupiditate alias ipsam error</p>
+                    <button class="botaoSB">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+        <div class="barra">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="dados_formulario">
+        <h2 class="titulo_formulario">Solicite agora</h2>
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="nome">Nome Completo:</label>
+            <input name="nome" id="nome" class="campo__escrita" required />
+        </div>
+
+        <div class="campo_formulario">
+        <label class="campo__etiqueta" for="email">E-mail:</label>
+        <input name="email" id="email" type="email" class="campo__escrita" required />
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="telefone">Telefone:</label>
+            <input name="telefone" id="telefone" type="tel" placeholder="(XX) XXXXX-XXXX" class="campo__escrita"
+                required>
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="cep">CEP:</label>
+            <input name="cep" id="cep" class="campo__escrita" required />
+            <div id="erro"></div>
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="endereco">Rua:</label>
+            <input name="endereco" id="endereco" class="campo__escrita" required />
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="numero">Número:</label>
+            <input name="numero" id="numero" class="campo__escrita" required />
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="bairro">Bairro:</label>
+            <input name="bairro" id="bairro" class="campo__escrita" required />
+        </div>
+
+        <div class="campo_formulario">
+            <label class="campo__etiqueta" for="cidade">Cidade:</label>
+            <input name="cidade" id="cidade" class="campo__escrita" required />
+         </div>
+        
+        <input type="submit" value="Enviar formulário" class="formulario__botao" id="enviar">
+    </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape_titulo">Conheça nossas redes socias</p>
+        <div class="lista_rodape">
+            <ul>
+                <li><a href="https://www.instagram.com/faber_castell_br/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/fabercastellbrasil/?locale=pt_BR">Facebook</a></li>
+                <li><a href="https://www.youtube.com/FaberCastellBR">YouTube</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="Js/script.js"></script>
+</body>
+
+</html>
